@@ -224,7 +224,7 @@ div .mb-4 .form-control
     display: none;
   }
   
-  .picture { /*AQUI A BAIXO VC PODE MEXER QUE VAI MUDANDO O ESTILO DA IMAGEM*/
+  .picture { /*ESTILO DA IMAGEM*/
     position: relative;
     width: 200px;
     height: 200px;

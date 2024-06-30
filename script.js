@@ -2,6 +2,8 @@ var skill_count=1;
 var hobby_count=1;
 var education_count=1;
 var experience_count=1;
+
+                /* adicionar habilidades */
 function addSkill(){
     let addSkill = document.getElementById('addSkill');
     let skillHide = document.getElementById('skill_hide');
@@ -22,6 +24,8 @@ function addSkill(){
         skillHide.style = "display:none";
     }
 }
+
+/* adicionar a educação */
 function addEducation(){
     let addEducation = document.getElementById('addEducation');
     let educationHide = document.getElementById('education_hide');
@@ -51,6 +55,8 @@ function addEducation(){
         educationHide.style = "display:none";
     }
 }
+
+/* adicionar a experiencia */
 function addExperience(){
     let addExperience = document.getElementById('addExperience');
     let experienceHide = document.getElementById('experience_hide');
@@ -75,6 +81,8 @@ function addExperience(){
         experienceHide.style = "display:none";
     }
 }
+
+
 const inputFile = document.querySelector("#picture__input");
 const pictureImage = document.querySelector(".picture__image");
 const pictureImageTxt = "Enviar Imagem";
@@ -83,6 +91,8 @@ pictureImage.innerHTML = pictureImageTxt;
 inputFile.addEventListener("change", function (e) {
   const inputTarget = e.target;
   const file = inputTarget.files[0];
+
+  
 
   if (file) {
     const reader = new FileReader();
